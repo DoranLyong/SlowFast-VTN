@@ -16,7 +16,7 @@ pip install transformers[torch]
 
 ## Getting started
 To use VTN models please refer to the configs under `configs/Kinetics`, or see 
-the [MODEL_ZOO.md](https://github.com/facebookresearch/SlowFast/blob/master/MODEL_ZOO.md) 
+the [MODEL_ZOO.md](https://github.com/bomri/SlowFast/blob/master/MODEL_ZOO.md#vtn-model-details-in-projectsvtn) 
 for pre-trained models*.
 
 To train ViT-B-VTN on your dataset (see [paper](https://arxiv.org/abs/2102.00719) for details): 
@@ -36,7 +36,7 @@ python tools/run_net.py \
   TEST.CHECKPOINT_TYPE pytorch
 ```
 
-\* VTN models in [MODEL_ZOO.md](https://github.com/facebookresearch/SlowFast/blob/master/MODEL_ZOO.md) produce slightly
+\* VTN models in [MODEL_ZOO.md](https://github.com/bomri/SlowFast/blob/master/MODEL_ZOO.md#vtn-model-details-in-projectsvtn) produce slightly
 different results than those reported in the paper due to differences between the PySlowFast code base and the
 original code used to train the models (mainly around data and video loading).
 
