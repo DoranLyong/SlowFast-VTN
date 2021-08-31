@@ -23,7 +23,7 @@ To train ViT-B-VTN on your dataset (see [paper](https://arxiv.org/abs/2102.00719
 ```
 python tools/run_net.py \
   --cfg configs/Kinetics/VIT_B_VTN.yaml \
-  DATA.PATH_TO_DATA_DIR path_to_your_dataset \
+  DATA.PATH_TO_DATA_DIR path_to_your_dataset
 ```
 
 To test the trained ViT-B-VTN on Kinetics-400 dataset:
