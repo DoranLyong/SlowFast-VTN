@@ -40,6 +40,13 @@ python tools/run_net.py \
 different results than those reported in the paper due to differences between the PySlowFast code base and the
 original code used to train the models (mainly around data and video loading).
 
+## Code and Hyperparameters
+[VTN main architecture](https://github.com/bomri/SlowFast/blob/master/slowfast/models/video_model_builder.py#L765)
+
+[VTN Longformer Model](https://github.com/bomri/SlowFast/blob/master/slowfast/models/vtn_helper.py)
+
+[Hyperparameters](https://github.com/bomri/SlowFast/blob/master/configs/Kinetics/VIT_B_VTN.yaml)
+
 ## Citing VTN
 If you find VTN useful for your research, please consider citing the paper using the following BibTeX entry.
 ```BibTeX
