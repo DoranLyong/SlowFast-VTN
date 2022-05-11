@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
 
+import os 
+print(os.getcwd())
+
+
 """Wrapper to train and test a video classification model."""
 from slowfast.utils.misc import launch_job
 from slowfast.utils.parser import load_config, parse_args
